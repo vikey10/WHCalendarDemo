@@ -1,0 +1,20 @@
+PODS:
+  - FluentDarkModeKit (1.0.4)
+  - SwiftDate (6.3.1)
+
+DEPENDENCIES:
+  - FluentDarkModeKit
+  - SwiftDate
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FluentDarkModeKit
+    - SwiftDate
+
+SPEC CHECKSUMS:
+  FluentDarkModeKit: b6317653a00329564582884772ec57c4eaad1a1f
+  SwiftDate: 72d28954e8e1c6c1c0f917ccc8005e4f83c7d4b2
+
+PODFILE CHECKSUM: e773f9ba7b47d06f1a95af9636addd6983b7fce4
+
+COCOAPODS: 1.10.1

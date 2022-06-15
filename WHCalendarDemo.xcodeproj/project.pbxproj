@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E0A871D283744B600B22491 /* String+Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0A871C283744B600B22491 /* String+Calendar.swift */; };
+		3E0A871F28376B0300B22491 /* WHYearCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0A871E28376B0300B22491 /* WHYearCalendarViewController.swift */; };
+		3E0A8725283772CE00B22491 /* WHYearCalendarMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0A8724283772CE00B22491 /* WHYearCalendarMonthView.swift */; };
+		3E0A87272837801F00B22491 /* WHCommonUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0A87262837801F00B22491 /* WHCommonUI.swift */; };
+		3EDA0DE128322940004CDB86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA0DE028322940004CDB86 /* AppDelegate.swift */; };
+		3EDA0DE528322940004CDB86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA0DE428322940004CDB86 /* ViewController.swift */; };
+		3EDA0DE828322940004CDB86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EDA0DE628322940004CDB86 /* Main.storyboard */; };
+		3EDA0DEA28322946004CDB86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EDA0DE928322946004CDB86 /* Assets.xcassets */; };
+		3EDA0DED28322946004CDB86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EDA0DEB28322946004CDB86 /* LaunchScreen.storyboard */; };
+		3EDA0EA7283239E4004CDB86 /* WHYearCalendarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA0EA2283239E4004CDB86 /* WHYearCalendarHeaderView.swift */; };
+		3EDA0EA8283239E4004CDB86 /* WHCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA0EA1283239E4004CDB86 /* WHCalendarView.swift */; };
+		3EDA0EA9283239E4004CDB86 /* Array+SafeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA0E9B283239E3004CDB86 /* Array+SafeExtension.swift */; };
+		3EDA0EAA283239E4004CDB86 /* WHYearCalendarDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA0EA5283239E4004CDB86 /* WHYearCalendarDayView.swift */; };
+		3EDA0EAB283239E4004CDB86 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA0E9F283239E4004CDB86 /* UICollectionView+Extension.swift */; };
+		3EDA0EAD283239E4004CDB86 /* Date+ChineseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA0EA0283239E4004CDB86 /* Date+ChineseExtension.swift */; };
+		3EDA0EAE283239E4004CDB86 /* WHCalendarViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA0EA6283239E4004CDB86 /* WHCalendarViewPresenter.swift */; };
+		3EDA0EAF283239E4004CDB86 /* WHPeriodDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA0E9C283239E4004CDB86 /* WHPeriodDayView.swift */; };
+		3EDA0EB0283239E4004CDB86 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA0E9E283239E4004CDB86 /* UIColor+Extension.swift */; };
+		3EDA0EB1283239E4004CDB86 /* WHCalendarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA0EA4283239E4004CDB86 /* WHCalendarConfig.swift */; };
+		3EDA0ECB28337FC4004CDB86 /* WHCalendarMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA0ECA28337FC4004CDB86 /* WHCalendarMonthView.swift */; };
+		3EF105612835E3FD008C14FD /* WHCalendarUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF105602835E3FD008C14FD /* WHCalendarUtils.swift */; };
+		405B3554D7FC4005513D3B2E /* Pods_WHCalendarDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA1A655086A876E262112E3 /* Pods_WHCalendarDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3EDA0EBB28323AE2004CDB86 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		14BEDCBFC53E3C907101FDA2 /* Pods-WHCalendarDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHCalendarDemo.debug.xcconfig"; path = "Target Support Files/Pods-WHCalendarDemo/Pods-WHCalendarDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3E0A871C283744B600B22491 /* String+Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Calendar.swift"; sourceTree = "<group>"; };
+		3E0A871E28376B0300B22491 /* WHYearCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHYearCalendarViewController.swift; sourceTree = "<group>"; };
+		3E0A8724283772CE00B22491 /* WHYearCalendarMonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHYearCalendarMonthView.swift; sourceTree = "<group>"; };
+		3E0A87262837801F00B22491 /* WHCommonUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHCommonUI.swift; sourceTree = "<group>"; };
+		3EDA0DDD28322940004CDB86 /* WHCalendarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHCalendarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDA0DE028322940004CDB86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EDA0DE428322940004CDB86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3EDA0DE728322940004CDB86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EDA0DE928322946004CDB86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EDA0DEC28322946004CDB86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EDA0DEE28322946004CDB86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EDA0E9B283239E3004CDB86 /* Array+SafeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+SafeExtension.swift"; sourceTree = "<group>"; };
+		3EDA0E9C283239E4004CDB86 /* WHPeriodDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHPeriodDayView.swift; sourceTree = "<group>"; };
+		3EDA0E9E283239E4004CDB86 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		3EDA0E9F283239E4004CDB86 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		3EDA0EA0283239E4004CDB86 /* Date+ChineseExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+ChineseExtension.swift"; sourceTree = "<group>"; };
+		3EDA0EA1283239E4004CDB86 /* WHCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHCalendarView.swift; sourceTree = "<group>"; };
+		3EDA0EA2283239E4004CDB86 /* WHYearCalendarHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHYearCalendarHeaderView.swift; sourceTree = "<group>"; };
+		3EDA0EA4283239E4004CDB86 /* WHCalendarConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHCalendarConfig.swift; sourceTree = "<group>"; };
+		3EDA0EA5283239E4004CDB86 /* WHYearCalendarDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHYearCalendarDayView.swift; sourceTree = "<group>"; };
+		3EDA0EA6283239E4004CDB86 /* WHCalendarViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHCalendarViewPresenter.swift; sourceTree = "<group>"; };
+		3EDA0ECA28337FC4004CDB86 /* WHCalendarMonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHCalendarMonthView.swift; sourceTree = "<group>"; };
+		3EF105602835E3FD008C14FD /* WHCalendarUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHCalendarUtils.swift; sourceTree = "<group>"; };
+		51E5E84DAE1FE4EF539364BF /* Pods-WHCalendarDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHCalendarDemo.release.xcconfig"; path = "Target Support Files/Pods-WHCalendarDemo/Pods-WHCalendarDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BCA1A655086A876E262112E3 /* Pods_WHCalendarDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WHCalendarDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EDA0DDA28322940004CDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405B3554D7FC4005513D3B2E /* Pods_WHCalendarDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39272E5A910DDAD7552588DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14BEDCBFC53E3C907101FDA2 /* Pods-WHCalendarDemo.debug.xcconfig */,
+				51E5E84DAE1FE4EF539364BF /* Pods-WHCalendarDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3E0A87202837708200B22491 /* YearCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				3EDA0EA2283239E4004CDB86 /* WHYearCalendarHeaderView.swift */,
+				3EDA0EA5283239E4004CDB86 /* WHYearCalendarDayView.swift */,
+				3E0A8724283772CE00B22491 /* WHYearCalendarMonthView.swift */,
+				3E0A871E28376B0300B22491 /* WHYearCalendarViewController.swift */,
+			);
+			path = YearCalendar;
+			sourceTree = "<group>";
+		};
+		3E0A87212837709300B22491 /* PeriodCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				3EDA0EA6283239E4004CDB86 /* WHCalendarViewPresenter.swift */,
+				3EDA0ECA28337FC4004CDB86 /* WHCalendarMonthView.swift */,
+				3EDA0E9C283239E4004CDB86 /* WHPeriodDayView.swift */,
+				3EDA0EA1283239E4004CDB86 /* WHCalendarView.swift */,
+			);
+			path = PeriodCalendar;
+			sourceTree = "<group>";
+		};
+		3E0A8722283770A400B22491 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3EDA0EA4283239E4004CDB86 /* WHCalendarConfig.swift */,
+				3EF105602835E3FD008C14FD /* WHCalendarUtils.swift */,
+				3E0A87262837801F00B22491 /* WHCommonUI.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3E0A8723283770BC00B22491 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3EDA0E9E283239E4004CDB86 /* UIColor+Extension.swift */,
+				3EDA0E9B283239E3004CDB86 /* Array+SafeExtension.swift */,
+				3EDA0E9F283239E4004CDB86 /* UICollectionView+Extension.swift */,
+				3EDA0EA0283239E4004CDB86 /* Date+ChineseExtension.swift */,
+				3E0A871C283744B600B22491 /* String+Calendar.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3E109D3228586A6E0091434D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3EDA0DD428322940004CDB86 = {
+			isa = PBXGroup;
+			children = (
+				3EDA0DDF28322940004CDB86 /* WHCalendarDemo */,
+				3EDA0DDE28322940004CDB86 /* Products */,
+				3EDA0E1D28322B0D004CDB86 /* Frameworks */,
+				39272E5A910DDAD7552588DC /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3EDA0DDE28322940004CDB86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EDA0DDD28322940004CDB86 /* WHCalendarDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EDA0DDF28322940004CDB86 /* WHCalendarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3EDA0E8D283239E3004CDB86 /* WHCalendar */,
+				3EDA0DE028322940004CDB86 /* AppDelegate.swift */,
+				3EDA0DE428322940004CDB86 /* ViewController.swift */,
+				3EDA0DE628322940004CDB86 /* Main.storyboard */,
+				3EDA0DE928322946004CDB86 /* Assets.xcassets */,
+				3EDA0DEB28322946004CDB86 /* LaunchScreen.storyboard */,
+				3EDA0DEE28322946004CDB86 /* Info.plist */,
+			);
+			path = WHCalendarDemo;
+			sourceTree = "<group>";
+		};
+		3EDA0E1D28322B0D004CDB86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCA1A655086A876E262112E3 /* Pods_WHCalendarDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3EDA0E8D283239E3004CDB86 /* WHCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				3E109D3228586A6E0091434D /* Model */,
+				3E0A8723283770BC00B22491 /* Extension */,
+				3E0A8722283770A400B22491 /* Utils */,
+				3E0A87212837709300B22491 /* PeriodCalendar */,
+				3E0A87202837708200B22491 /* YearCalendar */,
+			);
+			path = WHCalendar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EDA0DDC28322940004CDB86 /* WHCalendarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EDA0DF128322946004CDB86 /* Build configuration list for PBXNativeTarget "WHCalendarDemo" */;
+			buildPhases = (
+				AA59B8D389E67C869D4C0A9E /* [CP] Check Pods Manifest.lock */,
+				3EDA0DD928322940004CDB86 /* Sources */,
+				3EDA0DDA28322940004CDB86 /* Frameworks */,
+				3EDA0DDB28322940004CDB86 /* Resources */,
+				3EDA0EBB28323AE2004CDB86 /* Embed Frameworks */,
+				E0F9E4A9CFAF575287ED9A03 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WHCalendarDemo;
+			packageProductDependencies = (
+			);
+			productName = WHCalendarDemo;
+			productReference = 3EDA0DDD28322940004CDB86 /* WHCalendarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EDA0DD528322940004CDB86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					3EDA0DDC28322940004CDB86 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 3EDA0DD828322940004CDB86 /* Build configuration list for PBXProject "WHCalendarDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EDA0DD428322940004CDB86;
+			packageReferences = (
+			);
+			productRefGroup = 3EDA0DDE28322940004CDB86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EDA0DDC28322940004CDB86 /* WHCalendarDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EDA0DDB28322940004CDB86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDA0DED28322946004CDB86 /* LaunchScreen.storyboard in Resources */,
+				3EDA0DEA28322946004CDB86 /* Assets.xcassets in Resources */,
+				3EDA0DE828322940004CDB86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA59B8D389E67C869D4C0A9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WHCalendarDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0F9E4A9CFAF575287ED9A03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WHCalendarDemo/Pods-WHCalendarDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WHCalendarDemo/Pods-WHCalendarDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WHCalendarDemo/Pods-WHCalendarDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EDA0DD928322940004CDB86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDA0ECB28337FC4004CDB86 /* WHCalendarMonthView.swift in Sources */,
+				3E0A87272837801F00B22491 /* WHCommonUI.swift in Sources */,
+				3E0A871D283744B600B22491 /* String+Calendar.swift in Sources */,
+				3EDA0DE528322940004CDB86 /* ViewController.swift in Sources */,
+				3EDA0EB1283239E4004CDB86 /* WHCalendarConfig.swift in Sources */,
+				3EDA0EA8283239E4004CDB86 /* WHCalendarView.swift in Sources */,
+				3EDA0DE128322940004CDB86 /* AppDelegate.swift in Sources */,
+				3EDA0EA7283239E4004CDB86 /* WHYearCalendarHeaderView.swift in Sources */,
+				3EDA0EA9283239E4004CDB86 /* Array+SafeExtension.swift in Sources */,
+				3EDA0EAD283239E4004CDB86 /* Date+ChineseExtension.swift in Sources */,
+				3EF105612835E3FD008C14FD /* WHCalendarUtils.swift in Sources */,
+				3E0A871F28376B0300B22491 /* WHYearCalendarViewController.swift in Sources */,
+				3EDA0EB0283239E4004CDB86 /* UIColor+Extension.swift in Sources */,
+				3EDA0EAE283239E4004CDB86 /* WHCalendarViewPresenter.swift in Sources */,
+				3E0A8725283772CE00B22491 /* WHYearCalendarMonthView.swift in Sources */,
+				3EDA0EAF283239E4004CDB86 /* WHPeriodDayView.swift in Sources */,
+				3EDA0EAB283239E4004CDB86 /* UICollectionView+Extension.swift in Sources */,
+				3EDA0EAA283239E4004CDB86 /* WHYearCalendarDayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3EDA0DE628322940004CDB86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EDA0DE728322940004CDB86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EDA0DEB28322946004CDB86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EDA0DEC28322946004CDB86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EDA0DEF28322946004CDB86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EDA0DF028322946004CDB86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EDA0DF228322946004CDB86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14BEDCBFC53E3C907101FDA2 /* Pods-WHCalendarDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DYTA66T2BP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WHCalendarDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wh945.WHCalendarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EDA0DF328322946004CDB86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51E5E84DAE1FE4EF539364BF /* Pods-WHCalendarDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DYTA66T2BP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WHCalendarDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wh945.WHCalendarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EDA0DD828322940004CDB86 /* Build configuration list for PBXProject "WHCalendarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EDA0DEF28322946004CDB86 /* Debug */,
+				3EDA0DF028322946004CDB86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EDA0DF128322946004CDB86 /* Build configuration list for PBXNativeTarget "WHCalendarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EDA0DF228322946004CDB86 /* Debug */,
+				3EDA0DF328322946004CDB86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EDA0DD528322940004CDB86 /* Project object */;
+}
